@@ -1,14 +1,14 @@
-# Psiphon pro for Android Termux
+# Psiphon pro cho Android Termux
 
 
-### စတင်ရန်  
+### Cài Đặt Các Package
 
 pkg update                                   
 pkg upgrade -y                            
 pkg install git                         
 pkg install golang
 
-### clone ပါ 
+### clone 
 
 git clone https://github.com/truongvi02/Yes.git
 
@@ -16,46 +16,46 @@ cd Yes
 
 chmod +x *       
 
-### vpn စ ရန် 
+### Chạy VPN 
 
-for old version 
+Cho phiên bản cũ 
 
 ./yes
 
-or
+hay
 
-for my one
+cho mình bạn
 
 ./psp
 
-## Region ( for Asian region recommend to use SG & JP )
+## Khu vực (khu vực Châu Á khuyến cáo sử dụng SG & JP)
 
-❤️‍🔥eg cmd
+❤️‍🔥ví dụ cmd
 
-💟For s'pore
+💟Cho Singapore 
 
 ./yes -r SG
 
-💟For japan
+💟Cho Nhật Bản 
 
 ./yes -r JP
 
-### Proxy setting
+### Thiết lập Proxy (sử dụng nekobox1.2.9)
 
 127.0.0.1
 port 1080
 
-## Enjoy 💗
+## Kết nối và tận hưởng 💗
 
 
-## Update
-💚You can choose two versions here💚
+## cập nhật 
+💚Bạn có thể chọn hai phiên bản ở đây💚
 
-🍭If u like to use old Brainfuck version type cmd
+🍭Nếu bạn muốn sử dụng phiên bản Brainfuck cũ hãy nhập cmd
 
 ./yes
 
-🍭If u like to use modified version of mine type cmd
+🍭Nếu bạn muốn sử dụng phiên bản đã sửa đổi của tôi, hãy nhập cmd
 
 ./psp
 
