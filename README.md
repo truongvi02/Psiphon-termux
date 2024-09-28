@@ -10,7 +10,7 @@ pkg install golang
 
 ### clone ပါ 
 
-git clone https://github.com/truongvi02/Psiphon-termux.git
+git clone https://github.com/truongvi02/Yes.git
 
 cd Yes                         
 
