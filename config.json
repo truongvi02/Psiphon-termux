@@ -1,0 +1,50 @@
+{
+	"ProxyRotator": {
+		"Port": "1080"
+	},
+	"Inject": {
+		"Enable": true,
+		"Type": 2,
+		"Port": "8989",
+		"Rules": {
+			"akamai.net:80": [
+				"video.iflix.com",
+				"videocdn-2.iflix.com",
+				"iflix-videocdn-p8.akamaized.net",
+				"viu.app.link",
+				"s.youtube.com",
+				"youtubei.googleapis.com",
+				"www.pubgmobile.com",
+				"www.pubgmobile.com.cdn.ettdnsv.com",
+				"www.pubgmobile.com.edgesuite.net",
+				"a1845.dscb.akamai.net",
+				"esports.mobilelegends.com.akamaized.net",
+				"a1806.v.akamai.net",
+				"game.mobilelegends.com.akamaized.net",
+				"a1958.v.akamai.net",
+				"m.mobilelegends.com.akamaized.net",
+				"a1815.dscv.akamai.net",
+				"static.web.moonton.com",
+                " 125.235.36.177"
+			]
+		},
+		"Payload": "",
+		"ServerNameIndication": "video.iflix.com",
+		"MeekType": 0,
+		"Timeout": 5,
+		"ShowLog": false
+	},
+	"PsiphonCore": 4,
+	"Psiphon": {
+		"CoreName": "core",
+		"Tunnel": 1,
+		"Region": "",
+		"Protocols": [
+			"FRONTED-MEEK-HTTP-OSSH",
+			"FRONTED-MEEK-OSSH"
+		],
+		"TunnelWorkers": 10,
+		"KuotaDataLimit": 0,
+		"Authorizations": []
+	}
+}
