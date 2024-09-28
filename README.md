@@ -41,6 +41,7 @@ cho mình bạn
 ./yes -r JP
 
 ### Thiết lập Proxy (sử dụng nekobox1.2.9)
+link tải https://play.google.com/store/apps/details?id=moe.nb4a
 
 127.0.0.1
 port 1080
