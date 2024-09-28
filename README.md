@@ -43,7 +43,7 @@ for my one
 ### Proxy setting
 
 127.0.0.1
-port 9693
+port 1080
 
 ## Enjoy 💗
 
